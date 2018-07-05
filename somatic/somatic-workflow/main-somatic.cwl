@@ -128,7 +128,6 @@ inputs:
   type:
     items:
     - 'null'
-    - string
     - File
     type: array
 - id: vrn_file
@@ -172,7 +171,6 @@ inputs:
   type:
     items:
     - 'null'
-    - string
     - File
     type: array
 - id: config__algorithm__aligner
@@ -215,7 +213,6 @@ inputs:
   type:
     items:
     - 'null'
-    - string
     - File
     type: array
 - id: genome_resources__aliases__human
@@ -300,7 +297,6 @@ inputs:
   type:
     items:
     - 'null'
-    - string
     - File
     type: array
 - id: genome_resources__aliases__ensembl

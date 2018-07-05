@@ -86,7 +86,6 @@ inputs:
     - name: reference__bwa__indexes
       type:
       - 'null'
-      - string
       - File
     - name: config__algorithm__bam_clean
       type:

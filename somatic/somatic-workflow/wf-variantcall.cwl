@@ -57,7 +57,6 @@ inputs:
       - name: config__algorithm__validate_regions
         type:
         - 'null'
-        - string
         - File
       - name: genome_build
         type: string
@@ -196,7 +195,6 @@ outputs:
       - name: config__algorithm__validate_regions
         type:
         - 'null'
-        - string
         - File
       - name: genome_build
         type: string

@@ -83,7 +83,6 @@ inputs:
   type:
     items:
     - 'null'
-    - string
     - File
     type: array
 - id: reference__minimap2__indexes
@@ -199,7 +198,6 @@ outputs:
       - name: reference__bwa__indexes
         type:
         - 'null'
-        - string
         - File
       - name: config__algorithm__bam_clean
         type:

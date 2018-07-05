@@ -128,7 +128,6 @@ inputs:
   type:
     items:
     - 'null'
-    - string
     - File
     type: array
 - id: config__algorithm__tools_on
@@ -300,7 +299,6 @@ outputs:
         - name: config__algorithm__validate_regions
           type:
           - 'null'
-          - string
           - File
         - name: genome_build
           type: string
